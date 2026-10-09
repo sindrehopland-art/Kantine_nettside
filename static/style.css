@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+
+.nav {
+    background: midnightblue;
+    padding: 10px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.footer{
+    background: lightgray;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+
+}

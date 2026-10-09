@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>base</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<nav class="nav">
+    <div class="links">
+        <a href="/"><h3>Hjemmeside</h3></a>
+        <a href="/meny"><h3>Meny</h3></a>
+        <a href="/varer"><h3>Varer</h3></a>
+        <a href="/kontakt"><h3>Kontakt</h3></a>
+    </div>
+
+</nav>
+
+<div class="block">
+{% block content %}
+{% endblock %}
+</div>
+
+</body>
+
+<footer>
+    <h2 class="footer">Nettside av Sindre</h2>
+</footer>
+</html>
