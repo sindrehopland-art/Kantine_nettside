@@ -1,9 +1,21 @@
+html{
+    background-color: #6c8480;
+}
+
 body {
+    min-height: 100vh;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #e6e6e6;
+}
+
+.block{
+    flex: 1;
 }
 
 .nav {
-    background: midnightblue;
+    background: #404e3b;
     padding: 10px;
 }
 
@@ -19,9 +31,55 @@ body {
 
 
 .footer{
-    background: lightgray;
+    background: #6c8480;
     display: flex;
     justify-content: center;
     padding: 25px;
+    margin: 0;
+
 
 }
+
+.meny_tittel{
+    display: flex;
+    justify-content: center;
+}
+
+
+.meny-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.retter {
+    width: 220px;
+    padding: 15px;
+    text-align: center;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.retter img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.retter h2 {
+    font-size: 22px;
+}
+
+.retter h3 {
+    font-size: 18px;
+}
+
+.retter p {
+    font-size: 18px;
+    font-weight: bold;
+}
+

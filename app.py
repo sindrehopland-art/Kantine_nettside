@@ -1,4 +1,6 @@
 from flask import Flask, render_template
+from data import alle_varer, ukesmeny
+
 app = Flask(__name__)
 
 
@@ -12,11 +14,11 @@ def kontakt():
 
 @app.route('/meny')
 def meny():
-    return render_template("meny.html")
+    return render_template("meny.html",ukesmeny = ukesmeny)
 
 @app.route('/varer')
 def varer():
-    return render_template("varer.html")
+    return render_template("varer.html", alle_varer = alle_varer)
 
 if __name__ == '__main__':
     app.run()

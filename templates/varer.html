@@ -1,4 +1,9 @@
 {% extends "base.html" %}
 
 {% block content %}
+    {% for vare in alle_varer %}
+        <h2>{{ vare.navn }}</h2>
+        <p>{{ vare.pris }}</p>
+
+    {% endfor %}
 {% endblock %}

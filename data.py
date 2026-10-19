@@ -146,42 +146,42 @@ ukesmeny = [
     {
         "dag": "Mandag",
         "navn": "Pasta Bolognese",
-        "id": 45,
+        "id": 19,
         "innhold": 350,
         "pris": "55",
-        "bilde": "https://placehold.co/400x400?text=Pasta+Bolognese"
+        "bilde": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7OfFZAQ5hYmiNWU1T_h1SN2P2IulX6bz0oV2E0SP-NRai80AuC6_rvrAB&s=10"
     },
     {
         "dag": "Tirsdag",
         "navn": "Taco",
-        "id": 46,
+        "id": 20,
         "innhold": 350,
         "pris": "55",
-        "bilde": "https://placehold.co/400x400?text=Taco"
+        "bilde": "https://www.thecookierookie.com/wp-content/uploads/2024/05/street-tacos-recipe-2.jpg"
     },
     {
         "dag": "Onsdag",
         "navn": "Pizza",
-        "id": 47,
+        "id": 21,
         "innhold": 1,
         "pris": "40",
-        "bilde": "https://placehold.co/400x400?text=Pizza"
+        "bilde": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Homemade-Pizza_EXPS_FT23_376_EC_120123_3.jpg"
     },
     {
         "dag": "Torsdag",
         "navn": "Kylling med ris",
-        "id": 48,
+        "id": 22,
         "innhold": 350,
         "pris": "60",
-        "bilde": "https://placehold.co/400x400?text=Kylling+med+ris"
+        "bilde": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkEtP__G3CbATcccBCmgjoI-pF2Uc0S74CADGPQh9oOGIKvaKf8z8pPdE&s=10"
     },
     {
         "dag": "Fredag",
         "navn": "Hamburger med pommes frites",
-        "id": 49,
+        "id": 23,
         "innhold": 400,
         "pris": "65",
-        "bilde": "https://placehold.co/400x400?text=Hamburger"
+        "bilde": "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_4:3/tk%2Fphoto%2F2025%2F06-2025%2F2025-06-burger-doneness-guide%2Fburger-doneness-guide-0195"
     }
 ]
 
