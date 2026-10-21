@@ -4,28 +4,28 @@ drikke = [
         "id": 1,
         "innhold": 500,
         "pris": "22",
-        "bilde": "https://placehold.co/400x400?text=Vann"
+        "bilde": "https://ringnes.no/media/fksdhmw4/no_imsdal_original.png?height=1140&mode=max"
     },
     {
         "navn": "Iste",
         "id": 2,
         "innhold": 500,
         "pris": "25",
-        "bilde": "https://placehold.co/400x400?text=Iste"
+        "bilde": "https://bilder.ngdata.no/7038010067365/meny/large.jpg"
     },
     {
         "navn": "Cola",
         "id": 3,
         "innhold": 500,
         "pris": "25",
-        "bilde": "https://placehold.co/400x400?text=Cola"
+        "bilde": "https://engrosnett.no/image/kalde-drikker/mineralvann/5108675-5108675.jpg?v=639263683640030000"
     },
     {
         "navn": "Red Bull",
         "id": 4,
         "innhold": 250,
         "pris": "30",
-        "bilde": "https://placehold.co/400x400?text=Red+Bull"
+        "bilde": "https://images2.europris.no/produkter/vw800/19/193650/193650_main.webp"
     }
 ]
 
@@ -35,21 +35,21 @@ snacks = [
         "id": 5,
         "innhold": 200,
         "pris": "35",
-        "bilde": "https://placehold.co/400x400?text=Chips"
+        "bilde": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfxrjnhzA2iv-OsPNsw8UY4zoBaCNxAkyspYU7fL_kQA&s=10"
     },
     {
         "navn": "Ostepop",
         "id": 6,
         "innhold": 200,
         "pris": "30",
-        "bilde": "https://placehold.co/400x400?text=Ostepop"
+        "bilde": "https://www.cheezdoodles.no/wp-content/uploads/sites/17/2021/11/CD_original-800px.png"
     },
     {
         "navn": "Sjokolade",
         "id": 7,
         "innhold": 100,
         "pris": "25",
-        "bilde": "https://placehold.co/400x400?text=Sjokolade"
+        "bilde": "https://engrosnett.no/image/sott-snacks-og-godteri/sjokolade-og-posegodt/521716-521716.jpg?v=639263688951770000"
     }
 ]
 
@@ -59,21 +59,21 @@ bakevarer = [
         "id": 8,
         "innhold": 1,
         "pris": "20",
-        "bilde": "https://placehold.co/400x400?text=Bolle"
+        "bilde": "https://www.idun.no/wp-content/uploads/sites/49/2018/01/Boller-med-sjokolade-1.jpg"
     },
     {
         "navn": "Kanelbolle",
         "id": 9,
         "innhold": 1,
         "pris": "25",
-        "bilde": "https://placehold.co/400x400?text=Kanelbolle"
+        "bilde": "https://www.idun.no/wp-content/uploads/sites/49/2024/10/Kanelboller.jpg"
     },
     {
         "navn": "Croissant",
         "id": 10,
         "innhold": 1,
         "pris": "25",
-        "bilde": "https://placehold.co/400x400?text=Croissant"
+        "bilde": "https://www.sweetandsavorybyshinee.com/wp-content/uploads/2026/03/Homemade-Croissants-1.jpg"
     }
 ]
 
@@ -83,14 +83,14 @@ frukt = [
         "id": 11,
         "innhold": 1,
         "pris": "10",
-        "bilde": "https://placehold.co/400x400?text=Eple"
+        "bilde": "https://bilder.ngdata.no/4015/kmh/large.jpg"
     },
     {
         "navn": "Banan",
         "id": 12,
         "innhold": 1,
         "pris": "10",
-        "bilde": "https://placehold.co/400x400?text=Banan"
+        "bilde": "https://nutritionsource.hsph.harvard.edu/wp-content/uploads/2018/08/bananas-1354785_1920-1024x683.jpg"
     }
 ]
 
@@ -100,21 +100,21 @@ varm_drikke = [
         "id": 13,
         "innhold": 250,
         "pris": "20",
-        "bilde": "https://placehold.co/400x400?text=Kaffe"
+        "bilde": "https://media.snl.no/media/195395/standard_compressed_kaffe.jpg"
     },
     {
         "navn": "Varm sjokolade",
         "id": 14,
         "innhold": 250,
         "pris": "25",
-        "bilde": "https://placehold.co/400x400?text=Varm+sjokolade"
+        "bilde": "https://cdn.sanity.io/images/jjv48zaf/production/c851fa4b8edb05a40475884b45c423083f53df81-600x600.jpg?w=2048&q=75&fit=fillmax&auto=format"
     },
     {
         "navn": "Te",
         "id": 15,
         "innhold": 250,
         "pris": "15",
-        "bilde": "https://placehold.co/400x400?text=Te"
+        "bilde": "https://www.norges-tehus.no/cdn/shop/articles/koffein-i-te-landscape.jpg?v=1746692198"
     }
 ]
 
@@ -124,21 +124,21 @@ mat = [
         "id": 16,
         "innhold": 1,
         "pris": "45",
-        "bilde": "https://placehold.co/400x400?text=Baguette"
+        "bilde": "https://delideluca.no/wp-content/uploads/2013/01/Baguette-ost-og-skinke-1024x512.jpg"
     },
     {
         "navn": "Toast med ost og skinke",
         "id": 17,
         "innhold": 1,
         "pris": "35",
-        "bilde": "https://placehold.co/400x400?text=Toast"
+        "bilde": "https://www.prior.no/assets/images/_1000x1000_crop_center-center_none/Toast-med-ost-og-skinke.jpg"
     },
     {
         "navn": "Pizzastykke",
         "id": 18,
         "innhold": 1,
         "pris": "35",
-        "bilde": "https://placehold.co/400x400?text=Pizza"
+        "bilde": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Homemade-Pizza_EXPS_FT23_376_EC_120123_3.jpg"
     }
 ]
 

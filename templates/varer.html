@@ -1,9 +1,17 @@
 {% extends "base.html" %}
 
 {% block content %}
-    {% for vare in alle_varer %}
-        <h2>{{ vare.navn }}</h2>
-        <p>{{ vare.pris }}</p>
 
+    <h1 class="vare_tittel"></h1>
+
+    <div class="vare_container">
+    {% for vare in alle_varer %}
+        <div class="varer">
+            <h2>{{ vare.navn }}</h2>
+            <h3>{{ vare.pris }}</h3>
+            <img src="{{ vare.bilde }}" alt="{{ vare.navn }}">
+            <p>{{ vare.innhold }}</p>
+        </div>
+    </div>
     {% endfor %}
 {% endblock %}
