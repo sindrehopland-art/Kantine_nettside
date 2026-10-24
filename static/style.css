@@ -1,3 +1,10 @@
+/*
+#6c8480
+#404e3b
+#7b9669
+#bac8b1
+ */
+
 html{
     background-color: #6c8480;
 }
@@ -40,6 +47,32 @@ body {
 
 }
 
+.velkommen{
+    font-size: 130%;
+    text-align: center;
+    background-color: #7b9669;
+    border-radius: 10px;
+    padding: 1px;
+    max-width: 650px;
+
+    margin-top: 20px;
+    margin-left: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+
+}
+
+
+.dagens-rett {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.dagens-rett-tittel{
+    display: flex;
+    justify-content: center;
+}
+
 .meny_tittel{
     display: flex;
     justify-content: center;
@@ -56,7 +89,8 @@ body {
 
 .retter {
     width: 220px;
-    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
     text-align: center;
     background-color: white;
     border-radius: 12px;
@@ -83,3 +117,46 @@ body {
     font-weight: bold;
 }
 
+.vare_tittel{
+    display: flex;
+    justify-content: center;
+}
+
+
+.vare-container {
+    gap: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.varer {
+    width: 220px;
+    padding: 15px;
+    text-align: center;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+
+}
+
+.varer img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.varer h2 {
+    font-size: 22px;
+}
+
+.varer h3 {
+    font-size: 18px;
+}
+
+.varer p {
+    font-size: 18px;
+    font-weight: bold;
+}

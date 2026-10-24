@@ -2,16 +2,75 @@
 
 {% block content %}
 
-    <h1 class="vare_tittel"></h1>
-
-    <div class="vare_container">
-    {% for vare in alle_varer %}
-        <div class="varer">
-            <h2>{{ vare.navn }}</h2>
-            <h3>{{ vare.pris }}</h3>
-            <img src="{{ vare.bilde }}" alt="{{ vare.navn }}">
-            <p>{{ vare.innhold }}</p>
-        </div>
+    <h1 class="vare_tittel"> Drikke</h1>
+    <div class="vare-container">
+        {% for drikke in drikke %}
+            <div class="varer">
+                <h2>{{ drikke.navn }}</h2>
+                <h3>{{ drikke.pris }}kr</h3>
+                <img src="{{ drikke.bilde }}" alt="{{ drikke.navn }}">
+                <p>{{ drikke.innhold }}ml</p>
+            </div>
+        {% endfor %}
     </div>
-    {% endfor %}
+
+    <h1 class="vare_tittel"> Snacks</h1>
+    <div class="vare-container">
+        {% for snacks in snacks %}
+            <div class="varer">
+                <h2>{{ snacks.navn }}</h2>
+                <h3>{{ snacks.pris }}kr</h3>
+                <img src="{{ snacks.bilde }}" alt="{{ snacks.navn }}">
+                <p>{{ snacks.innhold }}ml</p>
+            </div>
+        {% endfor %}
+    </div>
+
+    <h1 class="vare_tittel"> bakevarer</h1>
+    <div class="vare-container">
+        {% for bakevare in bakevarer %}
+            <div class="varer">
+                <h2>{{ bakevare.navn }}</h2>
+                <h3>{{ bakevare.pris }}kr</h3>
+                <img src="{{ bakevare.bilde }}" alt="{{ bakevare.navn }}">
+                <p>{{ bakevare.innhold }}ml</p>
+            </div>
+        {% endfor %}
+    </div>
+
+    <h1 class="vare_tittel"> frukt</h1>
+    <div class="vare-container">
+        {% for frukt in frukt %}
+            <div class="varer">
+                <h2>{{ frukt.navn }}</h2>
+                <h3>{{ frukt.pris }}kr</h3>
+                <img src="{{ frukt.bilde }}" alt="{{ frukt.navn }}">
+                <p>{{ frukt.innhold }}ml</p>
+            </div>
+        {% endfor %}
+    </div>
+
+    <h1 class="vare_tittel"> Varm drikke</h1>
+    <div class="vare-container">
+        {% for varm_drikke in varm_drikke %}
+            <div class="varer">
+                <h2>{{ varm_drikke.navn }}</h2>
+                <h3>{{ varm_drikke.pris }}kr</h3>
+                <img src="{{ varm_drikke.bilde }}" alt="{{ varm_drikke.navn }}">
+                <p>{{ varm_drikke.innhold }}ml</p>
+            </div>
+        {% endfor %}
+    </div>
+
+    <h1 class="vare_tittel"> mat</h1>
+    <div class="vare-container">
+        {% for mat in mat %}
+            <div class="varer">
+                <h2>{{ mat.navn }}</h2>
+                <h3>{{ mat.pris }}kr</h3>
+                <img src="{{ mat.bilde }}" alt="{{ mat.navn }}">
+                <p>{{ mat.innhold }}g</p>
+            </div>
+        {% endfor %}
+    </div>
 {% endblock %}

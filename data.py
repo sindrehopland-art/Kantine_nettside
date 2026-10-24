@@ -4,14 +4,14 @@ drikke = [
         "id": 1,
         "innhold": 500,
         "pris": "22",
-        "bilde": "https://ringnes.no/media/fksdhmw4/no_imsdal_original.png?height=1140&mode=max"
+        "bilde": "https://fjordbites.com/cdn/shop/files/Imsdal_Vann_0_5_l.png?v=1774184841"
     },
     {
         "navn": "Iste",
         "id": 2,
         "innhold": 500,
         "pris": "25",
-        "bilde": "https://bilder.ngdata.no/7038010067365/meny/large.jpg"
+        "bilde": "https://handlenor.no/wp-content/uploads/2021/12/13FFHlCm6IkZBylo4fBq6QqB3wfZLxij-1.png"
     },
     {
         "navn": "Cola",
@@ -57,21 +57,21 @@ bakevarer = [
     {
         "navn": "Bolle",
         "id": 8,
-        "innhold": 1,
+        "innhold": 250,
         "pris": "20",
         "bilde": "https://www.idun.no/wp-content/uploads/sites/49/2018/01/Boller-med-sjokolade-1.jpg"
     },
     {
         "navn": "Kanelbolle",
         "id": 9,
-        "innhold": 1,
+        "innhold": 250,
         "pris": "25",
         "bilde": "https://www.idun.no/wp-content/uploads/sites/49/2024/10/Kanelboller.jpg"
     },
     {
         "navn": "Croissant",
         "id": 10,
-        "innhold": 1,
+        "innhold": 250,
         "pris": "25",
         "bilde": "https://www.sweetandsavorybyshinee.com/wp-content/uploads/2026/03/Homemade-Croissants-1.jpg"
     }
@@ -122,21 +122,21 @@ mat = [
     {
         "navn": "Ost og skinke baguette",
         "id": 16,
-        "innhold": 1,
+        "innhold": 350,
         "pris": "45",
         "bilde": "https://delideluca.no/wp-content/uploads/2013/01/Baguette-ost-og-skinke-1024x512.jpg"
     },
     {
-        "navn": "Toast med ost og skinke",
+        "navn": "Toast",
         "id": 17,
-        "innhold": 1,
+        "innhold": 500,
         "pris": "35",
         "bilde": "https://www.prior.no/assets/images/_1000x1000_crop_center-center_none/Toast-med-ost-og-skinke.jpg"
     },
     {
         "navn": "Pizzastykke",
         "id": 18,
-        "innhold": 1,
+        "innhold": 500,
         "pris": "35",
         "bilde": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Homemade-Pizza_EXPS_FT23_376_EC_120123_3.jpg"
     }
@@ -147,7 +147,7 @@ ukesmeny = [
         "dag": "Mandag",
         "navn": "Pasta Bolognese",
         "id": 19,
-        "innhold": 350,
+        "innhold": 750,
         "pris": "55",
         "bilde": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7OfFZAQ5hYmiNWU1T_h1SN2P2IulX6bz0oV2E0SP-NRai80AuC6_rvrAB&s=10"
     },
@@ -155,7 +155,7 @@ ukesmeny = [
         "dag": "Tirsdag",
         "navn": "Taco",
         "id": 20,
-        "innhold": 350,
+        "innhold": 600,
         "pris": "55",
         "bilde": "https://www.thecookierookie.com/wp-content/uploads/2024/05/street-tacos-recipe-2.jpg"
     },
@@ -163,7 +163,7 @@ ukesmeny = [
         "dag": "Onsdag",
         "navn": "Pizza",
         "id": 21,
-        "innhold": 1,
+        "innhold": 700,
         "pris": "40",
         "bilde": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Homemade-Pizza_EXPS_FT23_376_EC_120123_3.jpg"
     },
@@ -171,7 +171,7 @@ ukesmeny = [
         "dag": "Torsdag",
         "navn": "Kylling med ris",
         "id": 22,
-        "innhold": 350,
+        "innhold": 500,
         "pris": "60",
         "bilde": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkEtP__G3CbATcccBCmgjoI-pF2Uc0S74CADGPQh9oOGIKvaKf8z8pPdE&s=10"
     },

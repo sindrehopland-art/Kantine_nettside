@@ -5,4 +5,27 @@
         <h1>Velkommen til kantinen min</h1>
         <p>Her kan du se hva vi selger og ta kontakt</p>
     </div>
+
+
+    <div class="dagens-rett">
+
+    {% if dagens_rett %}
+        <div class="retter">
+            <h2 class="dagens-rett-tittel">Dagens meny - {{ dagens_dag }}</h2>
+            <img src="{{ dagens_rett.bilde }}" alt="{{ dagens_rett.navn }}">
+            <h3>{{ dagens_rett.navn }}</h3>
+            <p>{{ dagens_rett.pris }} kr</p>
+        </div>
+
+
+    {% else %}
+
+    </div>
+
+
+
+
+
+
+    {% endif %}
 {% endblock %}
