@@ -149,7 +149,8 @@ ukesmeny = [
         "id": 19,
         "innhold": 750,
         "pris": "55",
-        "bilde": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7OfFZAQ5hYmiNWU1T_h1SN2P2IulX6bz0oV2E0SP-NRai80AuC6_rvrAB&s=10"
+        "bilde": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7OfFZAQ5hYmiNWU1T_h1SN2P2IulX6bz0oV2E0SP-NRai80AuC6_rvrAB&s=10",
+        "beskrivelse": "Pasta med smakfull kjøttsaus og tomat."
     },
     {
         "dag": "Tirsdag",
@@ -157,7 +158,8 @@ ukesmeny = [
         "id": 20,
         "innhold": 600,
         "pris": "55",
-        "bilde": "https://www.thecookierookie.com/wp-content/uploads/2024/05/street-tacos-recipe-2.jpg"
+        "bilde": "https://www.thecookierookie.com/wp-content/uploads/2024/05/street-tacos-recipe-2.jpg",
+        "beskrivelse": "Taco med krydret kjøtt, friske grønnsaker og tilbehør."
     },
     {
         "dag": "Onsdag",
@@ -165,7 +167,8 @@ ukesmeny = [
         "id": 21,
         "innhold": 700,
         "pris": "40",
-        "bilde": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Homemade-Pizza_EXPS_FT23_376_EC_120123_3.jpg"
+        "bilde": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Homemade-Pizza_EXPS_FT23_376_EC_120123_3.jpg",
+        "beskrivelse": "Pizza med tomatsaus, smeltet ost og smakfull topping."
     },
     {
         "dag": "Torsdag",
@@ -173,15 +176,17 @@ ukesmeny = [
         "id": 22,
         "innhold": 500,
         "pris": "60",
-        "bilde": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkEtP__G3CbATcccBCmgjoI-pF2Uc0S74CADGPQh9oOGIKvaKf8z8pPdE&s=10"
+        "bilde": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkEtP__G3CbATcccBCmgjoI-pF2Uc0S74CADGPQh9oOGIKvaKf8z8pPdE&s=10",
+        "beskrivelse": "Saftig kylling servert med ris og passende tilbehør."
     },
     {
         "dag": "Fredag",
-        "navn": "Hamburger med pommes frites",
+        "navn": "Hamburger",
         "id": 23,
         "innhold": 400,
         "pris": "65",
-        "bilde": "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_4:3/tk%2Fphoto%2F2025%2F06-2025%2F2025-06-burger-doneness-guide%2Fburger-doneness-guide-0195"
+        "bilde": "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_4:3/tk%2Fphoto%2F2025%2F06-2025%2F2025-06-burger-doneness-guide%2Fburger-doneness-guide-0195",
+        "beskrivelse": "Saftig hamburger med sprø pommes frites ved siden av."
     }
 ]
 

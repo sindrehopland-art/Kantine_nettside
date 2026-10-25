@@ -21,7 +21,6 @@
     </div>
 
 
-
     <h2 class="populære-varer-tittel">Populære varer:</h2>
     <div class="populære-varer">
 
@@ -43,7 +42,7 @@
                 <h2>{{ vare.navn }}</h2>
                 <h3>{{ vare.pris }}kr</h3>
                 <img src="{{ vare.bilde }}" alt="{{ vare.navn }}">
-                <p>{{ vare.innhold }}ml</p>
+                <p>{{ vare.innhold }}g</p>
             </div>
         {% endif %}
     {% endfor %}
@@ -54,12 +53,11 @@
                 <h2>{{ vare.navn }}</h2>
                 <h3>{{ vare.pris }}kr</h3>
                 <img src="{{ vare.bilde }}" alt="{{ vare.navn }}">
-                <p>{{ vare.innhold }}ml</p>
+                <p>{{ vare.innhold }}g</p>
             </div>
         {% endif %}
     {% endfor %}
     </div>
-
 
 
 
