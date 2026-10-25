@@ -11,7 +11,7 @@ def hjemmeside():
         "Mandag", "Tirsdag", "Onsdag", "Torsdag", "Fredag", "Lørdag", "Søndag"
     ]
 
-    dagens_dag = dager[1]    #[datetime.today().weekday()]
+    dagens_dag = dager[0]    #[datetime.today().weekday()]
     dagens_rett = None
 
     for rett in ukesmeny:
@@ -19,7 +19,7 @@ def hjemmeside():
             dagens_rett = rett
             break
 
-    return render_template("index.html", dagens_dag = dagens_dag, dagens_rett = dagens_rett)
+    return render_template("index.html", dagens_dag = dagens_dag, dagens_rett = dagens_rett, drikke = drikke, snacks = snacks, bakevarer = bakevarer)
 
 
 @app.route('/kontakt')

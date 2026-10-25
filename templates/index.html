@@ -7,25 +7,60 @@
     </div>
 
 
-    <div class="dagens-rett">
+    <div class="dagens-rett-container">
+        {% if dagens_rett %}
+            <div class="dagens-rett">
+                <h2 class="dagens-rett-tittel">I dag er {{ dagens_rett.navn }} på menyen</h2>
+                <img src="{{ dagens_rett.bilde }}" alt="{{ dagens_rett.navn }}">
+                <p>{{ dagens_rett.pris }} kr</p>
+            </div>
 
-    {% if dagens_rett %}
-        <div class="retter">
-            <h2 class="dagens-rett-tittel">Dagens meny - {{ dagens_dag }}</h2>
-            <img src="{{ dagens_rett.bilde }}" alt="{{ dagens_rett.navn }}">
-            <h3>{{ dagens_rett.navn }}</h3>
-            <p>{{ dagens_rett.pris }} kr</p>
-        </div>
+        {% else %}
+            <p>Ingen meny for i dag</p>
+        {% endif %}
+    </div>
 
 
-    {% else %}
 
+    <h2 class="populære-varer-tittel">Populære varer:</h2>
+    <div class="populære-varer">
+
+    {% for vare in drikke %}
+        {% if vare.navn == "Red Bull" %}
+            <div class="varer">
+                <h2>{{ vare.navn }}</h2>
+                <h3>{{ vare.pris }}kr</h3>
+                <img src="{{ vare.bilde }}" alt="{{ vare.navn }}">
+                <p>{{ vare.innhold }}ml</p>
+            </div>
+        {% endif %}
+    {% endfor %}
+
+
+    {% for vare in snacks %}
+    {% if vare.navn == "Sjokolade" %}
+            <div class="varer">
+                <h2>{{ vare.navn }}</h2>
+                <h3>{{ vare.pris }}kr</h3>
+                <img src="{{ vare.bilde }}" alt="{{ vare.navn }}">
+                <p>{{ vare.innhold }}ml</p>
+            </div>
+        {% endif %}
+    {% endfor %}
+
+    {% for vare in bakevarer %}
+    {% if vare.navn == "Kanelbolle" %}
+            <div class="varer">
+                <h2>{{ vare.navn }}</h2>
+                <h3>{{ vare.pris }}kr</h3>
+                <img src="{{ vare.bilde }}" alt="{{ vare.navn }}">
+                <p>{{ vare.innhold }}ml</p>
+            </div>
+        {% endif %}
+    {% endfor %}
     </div>
 
 
 
 
-
-
-    {% endif %}
 {% endblock %}

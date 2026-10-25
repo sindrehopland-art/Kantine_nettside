@@ -42,35 +42,66 @@ body {
     display: flex;
     justify-content: center;
     padding: 25px;
-    margin: 0;
+    margin: 40px 0 0 0;
 
 
 }
 
-.velkommen{
+.velkommen {
     font-size: 130%;
+    color: white;
     text-align: center;
-    background-color: #7b9669;
-    border-radius: 10px;
-    padding: 1px;
-    max-width: 650px;
 
-    margin-top: 20px;
-    margin-left: 20px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+        url("https://www.rti-inc.com/wp-content/uploads/2024/07/How-to-run-a-cafeteria.png");
 
+    background-size: cover;
+    background-position: center;
+    padding: 80px 40px;
 }
 
-
-.dagens-rett {
+.dagens-rett-container {
     display: flex;
     justify-content: center;
     margin-top: 50px;
 }
 
+.dagens-rett {
+    padding-left: 70px;
+    padding-right: 70px;
+    text-align: center;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.dagens-rett img {
+    width: 400px;
+    border-radius: 8px;
+}
+
 .dagens-rett-tittel{
     display: flex;
     justify-content: center;
+    font-size: 35px;
+}
+
+.populære-varer-tittel{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    font-size: 30px;
+    color: white;
+    background-color: #7b9669;
+    padding: 30px;
+}
+
+.populære-varer{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
 }
 
 .meny_tittel{
@@ -160,3 +191,4 @@ body {
     font-size: 18px;
     font-weight: bold;
 }
+
